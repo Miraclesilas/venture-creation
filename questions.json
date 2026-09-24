@@ -1,0 +1,1706 @@
+[
+  {
+    "id": 1,
+    "question": "Venture creation is best described as:",
+    "options": [
+      "Transforming a business idea into an operating enterprise",
+      "Closing an existing business",
+      "Borrowing money without planning",
+      "Working only in government"
+    ],
+    "answer": 0,
+    "hint": "Venture creation includes opportunity identification, planning, resource mobilization, launch and management."
+  },
+  {
+    "id": 2,
+    "question": "Entrepreneurship is generally concerned with:",
+    "options": [
+      "Avoiding all uncertainty",
+      "Identifying opportunities and creating value",
+      "Eliminating competition",
+      "Only managing public offices"
+    ],
+    "answer": 1,
+    "hint": "Entrepreneurship involves opportunity pursuit, innovation, resource organization and value creation."
+  },
+  {
+    "id": 3,
+    "question": "An entrepreneur is a person who:",
+    "options": [
+      "Only inherits a business",
+      "Identifies opportunities and organizes resources",
+      "Avoids decision-making",
+      "Works without customers"
+    ],
+    "answer": 1,
+    "hint": "An entrepreneur organizes resources and takes calculated risks to pursue an opportunity."
+  },
+  {
+    "id": 4,
+    "question": "A business idea becomes a potential opportunity when:",
+    "options": [
+      "It is written down only",
+      "There is evidence of a customer need and possible viability",
+      "It has no competitors",
+      "It requires no resources"
+    ],
+    "answer": 1,
+    "hint": "An opportunity requires evidence that a need exists and can be served viably."
+  },
+  {
+    "id": 5,
+    "question": "The first stage in many venture-creation processes is:",
+    "options": [
+      "Opportunity identification",
+      "Business closure",
+      "Auditing after failure",
+      "Liquidation"
+    ],
+    "answer": 0,
+    "hint": "Opportunity identification starts the process of finding a problem or unmet need."
+  },
+  {
+    "id": 6,
+    "question": "Feasibility study primarily determines whether a venture is:",
+    "options": [
+      "Popular on social media",
+      "Practical and viable",
+      "Free from all risks",
+      "Guaranteed to succeed"
+    ],
+    "answer": 1,
+    "hint": "Feasibility analysis examines whether a proposed venture is practical and viable."
+  },
+  {
+    "id": 7,
+    "question": "Market feasibility focuses on:",
+    "options": [
+      "Customer demand and competitors",
+      "Only machinery maintenance",
+      "Employee uniforms",
+      "Office decoration"
+    ],
+    "answer": 0,
+    "hint": "Market feasibility assesses customers, demand, competition and market conditions."
+  },
+  {
+    "id": 8,
+    "question": "Technical feasibility examines:",
+    "options": [
+      "Whether required technology and skills are available",
+      "Only advertising slogans",
+      "Only tax rates",
+      "Customer birthdays"
+    ],
+    "answer": 0,
+    "hint": "Technical feasibility considers equipment, technology, materials and technical capabilities."
+  },
+  {
+    "id": 9,
+    "question": "Financial feasibility evaluates:",
+    "options": [
+      "Startup funds, costs, revenue and cash flow",
+      "Only product color",
+      "Only staff attendance",
+      "Only business names"
+    ],
+    "answer": 0,
+    "hint": "Financial feasibility assesses whether the venture can meet its financial requirements."
+  },
+  {
+    "id": 10,
+    "question": "Operational feasibility considers:",
+    "options": [
+      "How the venture will function daily",
+      "Only the founder's age",
+      "Only the logo",
+      "Only the business slogan"
+    ],
+    "answer": 0,
+    "hint": "Operational feasibility covers processes, staffing, supplies and daily activities."
+  },
+  {
+    "id": 11,
+    "question": "A business plan is:",
+    "options": [
+      "A written guide to business objectives and implementation",
+      "A customer complaint",
+      "A tax receipt only",
+      "A random list of products"
+    ],
+    "answer": 0,
+    "hint": "A business plan documents strategy, operations, management and financial expectations."
+  },
+  {
+    "id": 12,
+    "question": "The executive summary of a business plan:",
+    "options": [
+      "Provides a concise overview of the venture",
+      "Lists every customer complaint",
+      "Replaces the entire financial plan",
+      "Only describes the logo"
+    ],
+    "answer": 0,
+    "hint": "The executive summary briefly presents the business and its major plans."
+  },
+  {
+    "id": 13,
+    "question": "Market analysis in a business plan examines:",
+    "options": [
+      "Customers, competitors and market conditions",
+      "Only office furniture",
+      "Only staff birthdays",
+      "Only the founder's hobbies"
+    ],
+    "answer": 0,
+    "hint": "Market analysis investigates the target market and competitive environment."
+  },
+  {
+    "id": 14,
+    "question": "An operations plan explains:",
+    "options": [
+      "How goods or services will be produced or delivered",
+      "Only the business name",
+      "Only the mission statement",
+      "Only the owner's biography"
+    ],
+    "answer": 0,
+    "hint": "The operations plan describes workflow, resources, suppliers and service delivery."
+  },
+  {
+    "id": 15,
+    "question": "A business model explains how a venture:",
+    "options": [
+      "Creates, delivers and captures value",
+      "Avoids all expenses",
+      "Operates without customers",
+      "Only hires employees"
+    ],
+    "answer": 0,
+    "hint": "A business model explains the logic of value creation, delivery and capture."
+  },
+  {
+    "id": 16,
+    "question": "Which is a component of the Business Model Canvas?",
+    "options": [
+      "Value proposition",
+      "Personal horoscope",
+      "Political slogan",
+      "Attendance register"
+    ],
+    "answer": 0,
+    "hint": "The Business Model Canvas includes value proposition and eight other components."
+  },
+  {
+    "id": 17,
+    "question": "Customer segments refer to:",
+    "options": [
+      "Groups of customers a business serves",
+      "Business debts only",
+      "Employees' family members",
+      "Government offices only"
+    ],
+    "answer": 0,
+    "hint": "Customer segments are the distinct groups targeted by a venture."
+  },
+  {
+    "id": 18,
+    "question": "A value proposition describes:",
+    "options": [
+      "The benefit or value offered to customers",
+      "The founder's private address",
+      "Only the business tax number",
+      "The employee attendance policy"
+    ],
+    "answer": 0,
+    "hint": "The value proposition explains why customers may choose the offering."
+  },
+  {
+    "id": 19,
+    "question": "Revenue streams describe:",
+    "options": [
+      "How the venture earns income",
+      "How employees take leave",
+      "How competitors advertise",
+      "How offices are painted"
+    ],
+    "answer": 0,
+    "hint": "Revenue streams identify the ways a business generates income."
+  },
+  {
+    "id": 20,
+    "question": "Cost structure refers to:",
+    "options": [
+      "The major costs incurred by a business",
+      "Only the selling price",
+      "Only the customer list",
+      "Only the company logo"
+    ],
+    "answer": 0,
+    "hint": "Cost structure summarizes the main expenses of the business model."
+  },
+  {
+    "id": 21,
+    "question": "Creativity means:",
+    "options": [
+      "Generating new or useful ideas",
+      "Copying without thought",
+      "Avoiding improvement",
+      "Rejecting customer feedback"
+    ],
+    "answer": 0,
+    "hint": "Creativity is the generation of new or useful ideas."
+  },
+  {
+    "id": 22,
+    "question": "Innovation involves:",
+    "options": [
+      "Applying new or improved ideas to create value",
+      "Keeping every process unchanged",
+      "Avoiding technology",
+      "Only brainstorming"
+    ],
+    "answer": 0,
+    "hint": "Innovation is the implementation of new or improved ideas."
+  },
+  {
+    "id": 23,
+    "question": "An invention is best understood as:",
+    "options": [
+      "Creation of a new device, process or method",
+      "A routine sales transaction",
+      "A customer survey",
+      "A business loan"
+    ],
+    "answer": 0,
+    "hint": "Invention involves creating something new in the relevant form."
+  },
+  {
+    "id": 24,
+    "question": "A feasibility study differs from a business plan because it mainly:",
+    "options": [
+      "Tests whether the idea is practical",
+      "Guarantees investors' approval",
+      "Replaces all business operations",
+      "Only advertises the product"
+    ],
+    "answer": 0,
+    "hint": "Feasibility study supports the decision about whether to proceed."
+  },
+  {
+    "id": 25,
+    "question": "Primary market research includes:",
+    "options": [
+      "Interviews and surveys conducted directly",
+      "Only old textbooks",
+      "Only newspaper archives",
+      "Only competitor rumors"
+    ],
+    "answer": 0,
+    "hint": "Primary research collects new data directly for a specific purpose."
+  },
+  {
+    "id": 26,
+    "question": "Secondary research uses:",
+    "options": [
+      "Existing reports and published information",
+      "Only personal guesses",
+      "Only unrecorded conversations",
+      "Only future predictions"
+    ],
+    "answer": 0,
+    "hint": "Secondary research uses information already collected by others."
+  },
+  {
+    "id": 27,
+    "question": "The marketing mix traditionally contains:",
+    "options": [
+      "Product, Price, Place and Promotion",
+      "People, Politics, Power and Profit",
+      "Planning, Payroll, Policy and Paper",
+      "Productivity, Partnership, Publicity and Personnel"
+    ],
+    "answer": 0,
+    "hint": "The traditional 4Ps are Product, Price, Place and Promotion."
+  },
+  {
+    "id": 28,
+    "question": "The marketing-mix element concerned with amount charged is:",
+    "options": [
+      "Price",
+      "Place",
+      "Promotion",
+      "Product"
+    ],
+    "answer": 0,
+    "hint": "Price is the amount customers pay."
+  },
+  {
+    "id": 29,
+    "question": "Distribution channels are associated with:",
+    "options": [
+      "Place",
+      "Price",
+      "Promotion",
+      "Product design only"
+    ],
+    "answer": 0,
+    "hint": "Place concerns how products reach customers."
+  },
+  {
+    "id": 30,
+    "question": "Promotion is used to:",
+    "options": [
+      "Communicate and persuade target customers",
+      "Calculate depreciation only",
+      "Register employees",
+      "Repair machinery only"
+    ],
+    "answer": 0,
+    "hint": "Promotion informs, persuades and reminds the market."
+  },
+  {
+    "id": 31,
+    "question": "Personal savings are an example of:",
+    "options": [
+      "Internal finance",
+      "Foreign aid only",
+      "Trade credit only",
+      "Government taxation"
+    ],
+    "answer": 0,
+    "hint": "Personal savings are funds provided by the entrepreneur."
+  },
+  {
+    "id": 32,
+    "question": "A bank loan is generally:",
+    "options": [
+      "Debt financing",
+      "Equity financing automatically",
+      "A donation",
+      "Retained earnings"
+    ],
+    "answer": 0,
+    "hint": "A loan is normally repayable under agreed terms."
+  },
+  {
+    "id": 33,
+    "question": "Equity financing commonly involves:",
+    "options": [
+      "Giving investors an ownership interest",
+      "Repaying fixed interest only",
+      "Selling no ownership",
+      "Avoiding all agreements"
+    ],
+    "answer": 0,
+    "hint": "Equity finance involves ownership participation."
+  },
+  {
+    "id": 34,
+    "question": "Working capital supports:",
+    "options": [
+      "Day-to-day business operations",
+      "Only long-term buildings",
+      "Only business registration",
+      "Only advertising slogans"
+    ],
+    "answer": 0,
+    "hint": "Working capital supports routine operating needs."
+  },
+  {
+    "id": 35,
+    "question": "Fixed capital commonly includes:",
+    "options": [
+      "Long-term equipment and machinery",
+      "Daily transport fares only",
+      "Monthly food consumption",
+      "Temporary customer discounts"
+    ],
+    "answer": 0,
+    "hint": "Fixed capital is invested in longer-term productive assets."
+  },
+  {
+    "id": 36,
+    "question": "Revenue is:",
+    "options": [
+      "Income from sales before deducting expenses",
+      "Always equal to profit",
+      "The same as borrowed funds",
+      "Only the owner's savings"
+    ],
+    "answer": 0,
+    "hint": "Revenue is generated by selling goods or services."
+  },
+  {
+    "id": 37,
+    "question": "Profit is simplified as:",
+    "options": [
+      "Total revenue minus total costs",
+      "Total costs plus losses",
+      "Assets minus customers",
+      "Sales divided by employees"
+    ],
+    "answer": 0,
+    "hint": "Profit is revenue remaining after costs in a simplified model."
+  },
+  {
+    "id": 38,
+    "question": "Break-even occurs when:",
+    "options": [
+      "Total revenue equals total costs",
+      "Revenue is always zero",
+      "Costs are always zero",
+      "Sales are prohibited"
+    ],
+    "answer": 0,
+    "hint": "At break-even, there is neither profit nor loss under the stated model."
+  },
+  {
+    "id": 39,
+    "question": "The break-even formula uses:",
+    "options": [
+      "Fixed costs divided by contribution per unit",
+      "Revenue divided by staff count",
+      "Assets multiplied by rent",
+      "Profit divided by customers"
+    ],
+    "answer": 0,
+    "hint": "Break-even units = fixed costs / (selling price - variable cost per unit)."
+  },
+  {
+    "id": 40,
+    "question": "A variable cost generally:",
+    "options": [
+      "Changes with output or activity level",
+      "Never changes under any condition",
+      "Is always a tax",
+      "Is always a long-term asset"
+    ],
+    "answer": 0,
+    "hint": "Variable costs generally vary with production or sales volume."
+  },
+  {
+    "id": 41,
+    "question": "A fixed cost generally:",
+    "options": [
+      "Does not directly change with short-term output within a relevant range",
+      "Always equals revenue",
+      "Is always raw material",
+      "Changes with every customer"
+    ],
+    "answer": 0,
+    "hint": "Fixed costs remain broadly stable within a relevant operating range."
+  },
+  {
+    "id": 42,
+    "question": "Risk management begins with:",
+    "options": [
+      "Identifying potential risks",
+      "Ignoring threats",
+      "Borrowing without assessment",
+      "Closing the business"
+    ],
+    "answer": 0,
+    "hint": "Risk management starts with risk identification."
+  },
+  {
+    "id": 43,
+    "question": "Market risk may involve:",
+    "options": [
+      "Changes in demand and competition",
+      "Only staff uniforms",
+      "Only office location",
+      "Only accounting fonts"
+    ],
+    "answer": 0,
+    "hint": "Market risk includes demand, competition and consumer changes."
+  },
+  {
+    "id": 44,
+    "question": "Financial risk may involve:",
+    "options": [
+      "Cash shortages and excessive debt",
+      "Only product packaging",
+      "Only customer greetings",
+      "Only staff meetings"
+    ],
+    "answer": 0,
+    "hint": "Financial risk can arise from weak cash flow, debt or rising costs."
+  },
+  {
+    "id": 45,
+    "question": "Operational risk may involve:",
+    "options": [
+      "Equipment failure and supply disruption",
+      "Only brand colors",
+      "Only customer names",
+      "Only business slogans"
+    ],
+    "answer": 0,
+    "hint": "Operational risk affects day-to-day processes and delivery."
+  },
+  {
+    "id": 46,
+    "question": "A contingency plan is designed to:",
+    "options": [
+      "Prepare responses to possible disruptions",
+      "Guarantee no problems occur",
+      "Replace all employees",
+      "Avoid recordkeeping"
+    ],
+    "answer": 0,
+    "hint": "Contingency planning prepares the venture for disruptions."
+  },
+  {
+    "id": 47,
+    "question": "A sole proprietorship is owned by:",
+    "options": [
+      "One individual",
+      "A government ministry only",
+      "A large group automatically",
+      "A cooperative society only"
+    ],
+    "answer": 0,
+    "hint": "A sole proprietorship has one principal owner."
+  },
+  {
+    "id": 48,
+    "question": "A partnership involves:",
+    "options": [
+      "Two or more persons operating under an agreement",
+      "Only one owner by definition",
+      "No shared responsibilities",
+      "Only government employees"
+    ],
+    "answer": 0,
+    "hint": "A partnership involves two or more partners."
+  },
+  {
+    "id": 49,
+    "question": "A company, when duly incorporated, generally has:",
+    "options": [
+      "A separate legal identity",
+      "No legal obligations",
+      "No management structure",
+      "No financial records"
+    ],
+    "answer": 0,
+    "hint": "A company is a separate legal entity under the applicable legal framework."
+  },
+  {
+    "id": 50,
+    "question": "A cooperative is generally:",
+    "options": [
+      "A member-oriented collective enterprise",
+      "A business owned by one person only",
+      "A government tax office",
+      "A personal savings account"
+    ],
+    "answer": 0,
+    "hint": "Cooperatives are formed to meet members' shared economic or social needs."
+  },
+  {
+    "id": 51,
+    "question": "Business ethics concerns:",
+    "options": [
+      "Moral principles guiding business conduct",
+      "Only profit maximization",
+      "Only marketing design",
+      "Only machinery purchase"
+    ],
+    "answer": 0,
+    "hint": "Business ethics guides responsible and fair conduct."
+  },
+  {
+    "id": 52,
+    "question": "False advertising is an example of:",
+    "options": [
+      "An ethical issue",
+      "A financing source",
+      "A feasibility type",
+      "A revenue stream"
+    ],
+    "answer": 0,
+    "hint": "Misrepresentation in advertising is an ethical problem."
+  },
+  {
+    "id": 53,
+    "question": "Social entrepreneurship combines:",
+    "options": [
+      "Social or environmental mission with entrepreneurial methods",
+      "Only charity without planning",
+      "Only government employment",
+      "Only high prices"
+    ],
+    "answer": 0,
+    "hint": "Social enterprises pursue impact while seeking operational sustainability."
+  },
+  {
+    "id": 54,
+    "question": "Business sustainability refers to:",
+    "options": [
+      "The ability to continue creating value over time",
+      "Only rapid sales growth",
+      "Avoiding all change",
+      "Operating without customers"
+    ],
+    "answer": 0,
+    "hint": "Sustainability involves long-term viability and responsible management."
+  },
+  {
+    "id": 55,
+    "question": "Business growth may be measured through:",
+    "options": [
+      "Sales, customers or capacity",
+      "Only the founder's age",
+      "Only the office size",
+      "Only the business name"
+    ],
+    "answer": 0,
+    "hint": "Growth can involve increased sales, customers, capacity or reach."
+  },
+  {
+    "id": 56,
+    "question": "A major cause of venture failure may be:",
+    "options": [
+      "Poor financial management",
+      "Having a business name",
+      "Conducting research",
+      "Keeping records"
+    ],
+    "answer": 0,
+    "hint": "Weak financial management can contribute to business failure."
+  },
+  {
+    "id": 57,
+    "question": "Cash flow refers to:",
+    "options": [
+      "Movement of cash into and out of a business",
+      "Only accounting profit",
+      "Only inventory quantity",
+      "Only the selling price"
+    ],
+    "answer": 0,
+    "hint": "Cash flow tracks cash inflows and outflows."
+  },
+  {
+    "id": 58,
+    "question": "High sales do not always mean high cash flow because:",
+    "options": [
+      "Customers may delay payment",
+      "All customers pay immediately",
+      "Costs do not exist",
+      "Sales are never recorded"
+    ],
+    "answer": 0,
+    "hint": "Credit sales and delayed collections can create cash shortages."
+  },
+  {
+    "id": 59,
+    "question": "PESTLE analysis examines:",
+    "options": [
+      "Political, Economic, Social, Technological, Legal and Environmental factors",
+      "Only prices and profits",
+      "Only staffing levels",
+      "Only product quality"
+    ],
+    "answer": 0,
+    "hint": "PESTLE is an external-environment analysis framework."
+  },
+  {
+    "id": 60,
+    "question": "Inflation can affect ventures by:",
+    "options": [
+      "Increasing input costs and reducing purchasing power",
+      "Eliminating all expenses",
+      "Guaranteeing higher profit",
+      "Removing competition"
+    ],
+    "answer": 0,
+    "hint": "Inflation can raise costs and affect customer purchasing power."
+  },
+  {
+    "id": 61,
+    "question": "Technology can help ventures through:",
+    "options": [
+      "Digital marketing and improved recordkeeping",
+      "Eliminating all risk",
+      "Removing customer needs",
+      "Guaranteeing success"
+    ],
+    "answer": 0,
+    "hint": "Technology can improve reach, communication and business processes."
+  },
+  {
+    "id": 62,
+    "question": "A digital venture commonly uses:",
+    "options": [
+      "Digital platforms or technologies as a core part of operations",
+      "Only handwritten records",
+      "No customer communication",
+      "Only physical advertising"
+    ],
+    "answer": 0,
+    "hint": "Digital ventures use technology in their value creation or delivery."
+  },
+  {
+    "id": 63,
+    "question": "Networking helps entrepreneurs to:",
+    "options": [
+      "Build relationships with customers and partners",
+      "Avoid all competition",
+      "Eliminate planning",
+      "Guarantee finance"
+    ],
+    "answer": 0,
+    "hint": "Networking can create access to information, customers and partnerships."
+  },
+  {
+    "id": 64,
+    "question": "A value proposition should be:",
+    "options": [
+      "Relevant to a customer need",
+      "Unrelated to the market",
+      "Impossible to explain",
+      "Based only on the owner's preference"
+    ],
+    "answer": 0,
+    "hint": "A strong value proposition addresses a customer problem or desire."
+  },
+  {
+    "id": 65,
+    "question": "Customer validation involves:",
+    "options": [
+      "Testing assumptions with potential customers",
+      "Assuming everyone will buy",
+      "Avoiding feedback",
+      "Ignoring competitors"
+    ],
+    "answer": 0,
+    "hint": "Validation tests whether customers recognize and value the proposed solution."
+  },
+  {
+    "id": 66,
+    "question": "A minimum viable product is:",
+    "options": [
+      "A basic version used to test assumptions",
+      "A fully mature corporation",
+      "A government license",
+      "A financial statement only"
+    ],
+    "answer": 0,
+    "hint": "An MVP is a basic offering used to learn from users."
+  },
+  {
+    "id": 67,
+    "question": "Competitive advantage refers to:",
+    "options": [
+      "A feature or capability that helps a venture compete",
+      "A guarantee of permanent monopoly",
+      "Only low wages",
+      "Only a business name"
+    ],
+    "answer": 0,
+    "hint": "Competitive advantage helps a venture perform better relative to alternatives."
+  },
+  {
+    "id": 68,
+    "question": "Customer retention means:",
+    "options": [
+      "Keeping existing customers over time",
+      "Rejecting repeat buyers",
+      "Increasing complaints",
+      "Avoiding service quality"
+    ],
+    "answer": 0,
+    "hint": "Retention involves maintaining customer relationships."
+  },
+  {
+    "id": 69,
+    "question": "A target market is:",
+    "options": [
+      "The specific group a venture intends to serve",
+      "Every person in the world automatically",
+      "Only employees",
+      "Only competitors"
+    ],
+    "answer": 0,
+    "hint": "A target market is the selected customer group."
+  },
+  {
+    "id": 70,
+    "question": "Pricing should consider:",
+    "options": [
+      "Costs, demand, competition and value",
+      "Only the owner's mood",
+      "Only the logo",
+      "Only office location"
+    ],
+    "answer": 0,
+    "hint": "Pricing decisions should consider multiple market and financial factors."
+  },
+  {
+    "id": 71,
+    "question": "A supplier relationship is important because suppliers provide:",
+    "options": [
+      "Inputs, goods or services needed by the venture",
+      "Only customer complaints",
+      "Only government policies",
+      "Only business slogans"
+    ],
+    "answer": 0,
+    "hint": "Suppliers support the venture's input and operating needs."
+  },
+  {
+    "id": 72,
+    "question": "Recordkeeping helps a venture to:",
+    "options": [
+      "Monitor transactions and support decisions",
+      "Avoid all expenses",
+      "Guarantee sales",
+      "Replace market research"
+    ],
+    "answer": 0,
+    "hint": "Accurate records support financial control and informed decisions."
+  },
+  {
+    "id": 73,
+    "question": "Separating personal and business funds helps:",
+    "options": [
+      "Improve financial clarity and control",
+      "Guarantee profit",
+      "Remove all taxes",
+      "Eliminate customers"
+    ],
+    "answer": 0,
+    "hint": "Separate funds make business performance easier to monitor."
+  },
+  {
+    "id": 74,
+    "question": "A business objective should ideally be:",
+    "options": [
+      "Clear and measurable where possible",
+      "Completely undefined",
+      "Unrelated to operations",
+      "Impossible to evaluate"
+    ],
+    "answer": 0,
+    "hint": "Clear objectives support planning and performance assessment."
+  },
+  {
+    "id": 75,
+    "question": "A mission statement describes:",
+    "options": [
+      "The venture's purpose and central direction",
+      "Only its daily cash balance",
+      "Only its staff list",
+      "Only its debts"
+    ],
+    "answer": 0,
+    "hint": "A mission statement explains why the venture exists."
+  },
+  {
+    "id": 76,
+    "question": "A vision statement commonly describes:",
+    "options": [
+      "A desired future position or aspiration",
+      "Only past expenses",
+      "Only customer complaints",
+      "Only supplier invoices"
+    ],
+    "answer": 0,
+    "hint": "Vision describes the desired future direction."
+  },
+  {
+    "id": 77,
+    "question": "Stakeholders may include:",
+    "options": [
+      "Customers, employees, suppliers and owners",
+      "Only competitors",
+      "Only the founder",
+      "Only regulators"
+    ],
+    "answer": 0,
+    "hint": "Stakeholders are parties affected by or able to affect the venture."
+  },
+  {
+    "id": 78,
+    "question": "Corporate social responsibility involves:",
+    "options": [
+      "Considering social and environmental responsibilities",
+      "Avoiding all community interaction",
+      "Only increasing prices",
+      "Only reducing staff"
+    ],
+    "answer": 0,
+    "hint": "CSR concerns broader organizational responsibilities and impacts."
+  },
+  {
+    "id": 79,
+    "question": "A business incubator may support startups through:",
+    "options": [
+      "Mentoring, workspace or business support",
+      "Only punishment",
+      "Only taxation",
+      "Only product disposal"
+    ],
+    "answer": 0,
+    "hint": "Incubators often provide support resources for early-stage ventures."
+  },
+  {
+    "id": 80,
+    "question": "An accelerator commonly aims to:",
+    "options": [
+      "Support rapid development of selected ventures",
+      "Close all startups",
+      "Prevent innovation",
+      "Replace customers"
+    ],
+    "answer": 0,
+    "hint": "Accelerators provide structured support, often for growth-oriented startups."
+  },
+  {
+    "id": 81,
+    "question": "Calculated risk-taking means:",
+    "options": [
+      "Assessing possible outcomes before deciding",
+      "Taking every risk blindly",
+      "Avoiding all decisions",
+      "Ignoring evidence"
+    ],
+    "answer": 0,
+    "hint": "Calculated risk-taking uses information and assessment."
+  },
+  {
+    "id": 82,
+    "question": "Persistence in entrepreneurship means:",
+    "options": [
+      "Continuing and adapting despite challenges",
+      "Refusing to learn",
+      "Ignoring customers",
+      "Never changing a plan"
+    ],
+    "answer": 0,
+    "hint": "Persistence includes sustained effort and adaptation."
+  },
+  {
+    "id": 83,
+    "question": "Adaptability is important because:",
+    "options": [
+      "Business conditions can change",
+      "Markets never change",
+      "Customers are always identical",
+      "Costs never move"
+    ],
+    "answer": 0,
+    "hint": "Adaptability helps ventures respond to changing conditions."
+  },
+  {
+    "id": 84,
+    "question": "Leadership in a venture includes:",
+    "options": [
+      "Guiding people toward business objectives",
+      "Avoiding communication",
+      "Ignoring staff",
+      "Only signing receipts"
+    ],
+    "answer": 0,
+    "hint": "Leadership coordinates people and supports shared objectives."
+  },
+  {
+    "id": 85,
+    "question": "A business opportunity can arise from:",
+    "options": [
+      "An unmet customer need",
+      "Only a random guess",
+      "Only an existing debt",
+      "Only a completed audit"
+    ],
+    "answer": 0,
+    "hint": "Unmet needs can reveal opportunities."
+  },
+  {
+    "id": 86,
+    "question": "A business problem should be researched before investment because:",
+    "options": [
+      "Assumptions may be wrong",
+      "Research guarantees monopoly",
+      "Costs become zero",
+      "Customers become automatic"
+    ],
+    "answer": 0,
+    "hint": "Research reduces uncertainty and improves decisions."
+  },
+  {
+    "id": 87,
+    "question": "A competitor analysis helps an entrepreneur to:",
+    "options": [
+      "Understand rival offerings and positioning",
+      "Eliminate all rivals automatically",
+      "Avoid customer feedback",
+      "Guarantee market dominance"
+    ],
+    "answer": 0,
+    "hint": "Competitor analysis supports strategic positioning."
+  },
+  {
+    "id": 88,
+    "question": "The term scalability refers to:",
+    "options": [
+      "Ability to grow without costs rising at the same rate in every case",
+      "Ability to avoid all expenses",
+      "Ability to remain permanently small",
+      "Ability to reject technology"
+    ],
+    "answer": 0,
+    "hint": "Scalability concerns the capacity to expand efficiently."
+  },
+  {
+    "id": 89,
+    "question": "Bootstrapping means:",
+    "options": [
+      "Building a venture using available resources and internally generated support",
+      "Borrowing from every bank",
+      "Avoiding sales",
+      "Only receiving grants"
+    ],
+    "answer": 0,
+    "hint": "Bootstrapping emphasizes resourcefulness and limited external funding."
+  },
+  {
+    "id": 90,
+    "question": "Angel investors generally provide:",
+    "options": [
+      "Capital and sometimes advice in exchange for an ownership interest",
+      "Only government salaries",
+      "Only free equipment",
+      "Only customer complaints"
+    ],
+    "answer": 0,
+    "hint": "Angel investors commonly invest personal funds in early-stage ventures."
+  },
+  {
+    "id": 91,
+    "question": "Venture capital usually refers to:",
+    "options": [
+      "Investment in businesses with growth potential, often for equity",
+      "A personal savings account",
+      "A business license",
+      "A customer discount"
+    ],
+    "answer": 0,
+    "hint": "Venture capital is equity investment often directed at scalable ventures."
+  },
+  {
+    "id": 92,
+    "question": "A grant is generally:",
+    "options": [
+      "Funding provided under specified eligibility and conditions",
+      "Always a bank loan",
+      "Always an ownership sale",
+      "A customer refund"
+    ],
+    "answer": 0,
+    "hint": "Grants may be non-repayable but usually have conditions."
+  },
+  {
+    "id": 93,
+    "question": "Supplier credit means:",
+    "options": [
+      "Receiving inputs now and paying later under agreed terms",
+      "Selling only to suppliers",
+      "Avoiding all records",
+      "Receiving free goods permanently"
+    ],
+    "answer": 0,
+    "hint": "Supplier credit provides trade financing through deferred payment."
+  },
+  {
+    "id": 94,
+    "question": "Legal feasibility asks whether:",
+    "options": [
+      "The venture can comply with applicable legal requirements",
+      "Customers like the logo",
+      "The founder enjoys the work",
+      "The business has no competitors"
+    ],
+    "answer": 0,
+    "hint": "Legal feasibility considers registration, licensing and regulatory obligations."
+  },
+  {
+    "id": 95,
+    "question": "A business license is intended to:",
+    "options": [
+      "Authorize or regulate specified business activity where required",
+      "Guarantee profit",
+      "Replace accounting",
+      "Remove all risk"
+    ],
+    "answer": 0,
+    "hint": "Licensing requirements depend on the activity and legal framework."
+  },
+  {
+    "id": 96,
+    "question": "A competitive market is one in which:",
+    "options": [
+      "Multiple providers may compete for customers",
+      "Only one provider exists by definition",
+      "Customers cannot choose",
+      "Prices never change"
+    ],
+    "answer": 0,
+    "hint": "Competition involves rivalry among providers."
+  },
+  {
+    "id": 97,
+    "question": "A customer pain point is:",
+    "options": [
+      "A problem or difficulty experienced by a customer",
+      "A business logo",
+      "A supplier's office",
+      "A financial statement"
+    ],
+    "answer": 0,
+    "hint": "Pain points can reveal opportunities for solutions."
+  },
+  {
+    "id": 98,
+    "question": "A prototype is:",
+    "options": [
+      "An early model used for testing and improvement",
+      "A final tax return",
+      "A business loan",
+      "A customer database only"
+    ],
+    "answer": 0,
+    "hint": "A prototype helps test design and functionality."
+  },
+  {
+    "id": 99,
+    "question": "Feedback is valuable because it:",
+    "options": [
+      "Provides information for improving an offering",
+      "Always proves success",
+      "Eliminates all costs",
+      "Replaces financial planning"
+    ],
+    "answer": 0,
+    "hint": "Feedback helps entrepreneurs refine assumptions and products."
+  },
+  {
+    "id": 100,
+    "question": "A pivot in a startup generally means:",
+    "options": [
+      "A significant change in strategy or business direction",
+      "Closing every account",
+      "Refusing to adapt",
+      "Only increasing rent"
+    ],
+    "answer": 0,
+    "hint": "A pivot changes an important aspect of the venture based on learning."
+  },
+  {
+    "id": 101,
+    "question": "The main purpose of monitoring performance is to:",
+    "options": [
+      "Compare actual results with objectives and improve decisions",
+      "Avoid all measurement",
+      "Guarantee customers",
+      "Replace planning"
+    ],
+    "answer": 0,
+    "hint": "Monitoring supports corrective action and continuous improvement."
+  },
+  {
+    "id": 102,
+    "question": "A key performance indicator is:",
+    "options": [
+      "A measurable value used to track performance",
+      "Only a business name",
+      "Only a legal form",
+      "Only an advertising phrase"
+    ],
+    "answer": 0,
+    "hint": "KPIs are metrics used to evaluate progress."
+  },
+  {
+    "id": 103,
+    "question": "A cash budget estimates:",
+    "options": [
+      "Expected cash receipts and payments",
+      "Only employee ages",
+      "Only product colors",
+      "Only market slogans"
+    ],
+    "answer": 0,
+    "hint": "Cash budgets help anticipate liquidity needs."
+  },
+  {
+    "id": 104,
+    "question": "Liquidity refers to:",
+    "options": [
+      "Ability to meet short-term obligations",
+      "Only long-term growth",
+      "Only customer loyalty",
+      "Only brand awareness"
+    ],
+    "answer": 0,
+    "hint": "Liquidity concerns the ability to pay short-term obligations."
+  },
+  {
+    "id": 105,
+    "question": "Solvency generally concerns:",
+    "options": [
+      "Ability to meet longer-term obligations",
+      "Only daily sales",
+      "Only promotion",
+      "Only packaging"
+    ],
+    "answer": 0,
+    "hint": "Solvency relates to longer-term financial stability."
+  },
+  {
+    "id": 106,
+    "question": "A startup's value proposition should be tested because:",
+    "options": [
+      "The founder's assumptions may not match customer reality",
+      "All ideas automatically work",
+      "Competition is irrelevant",
+      "Research is illegal"
+    ],
+    "answer": 0,
+    "hint": "Testing reduces the risk of building something customers do not want."
+  },
+  {
+    "id": 107,
+    "question": "Ethical customer treatment includes:",
+    "options": [
+      "Honest information and fair dealing",
+      "Misleading claims",
+      "Hidden unsafe practices",
+      "Refusing complaints"
+    ],
+    "answer": 0,
+    "hint": "Ethical conduct includes honesty and fair treatment."
+  },
+  {
+    "id": 108,
+    "question": "Environmental responsibility may include:",
+    "options": [
+      "Proper waste management and resource efficiency",
+      "Dumping waste anywhere",
+      "Ignoring pollution",
+      "Avoiding all monitoring"
+    ],
+    "answer": 0,
+    "hint": "Environmental responsibility includes managing ecological impacts."
+  },
+  {
+    "id": 109,
+    "question": "A business can create social value by:",
+    "options": [
+      "Solving community problems sustainably",
+      "Ignoring users",
+      "Avoiding accountability",
+      "Only increasing waste"
+    ],
+    "answer": 0,
+    "hint": "Social value comes from addressing meaningful needs responsibly."
+  },
+  {
+    "id": 110,
+    "question": "The entrepreneur's opportunity cost is:",
+    "options": [
+      "The value of the next best alternative forgone",
+      "Only the selling price",
+      "Only a tax payment",
+      "Only a customer complaint"
+    ],
+    "answer": 0,
+    "hint": "Opportunity cost is the value of the next best alternative not chosen."
+  },
+  {
+    "id": 111,
+    "question": "A sunk cost is:",
+    "options": [
+      "A past cost that cannot be recovered",
+      "A future expected revenue",
+      "A new customer",
+      "A business opportunity"
+    ],
+    "answer": 0,
+    "hint": "Sunk costs have already been incurred and cannot be recovered."
+  },
+  {
+    "id": 112,
+    "question": "Marginal cost is:",
+    "options": [
+      "The additional cost of producing one more unit",
+      "The total annual revenue",
+      "The fixed rent only",
+      "The business mission"
+    ],
+    "answer": 0,
+    "hint": "Marginal cost is the additional cost from one more unit."
+  },
+  {
+    "id": 113,
+    "question": "Contribution per unit equals:",
+    "options": [
+      "Selling price per unit minus variable cost per unit",
+      "Fixed cost plus revenue",
+      "Profit divided by staff",
+      "Assets minus liabilities"
+    ],
+    "answer": 0,
+    "hint": "Contribution per unit helps cover fixed costs and then generate profit."
+  },
+  {
+    "id": 114,
+    "question": "A business's value chain includes:",
+    "options": [
+      "Activities that contribute to creating and delivering value",
+      "Only the company name",
+      "Only the founder's biography",
+      "Only tax payments"
+    ],
+    "answer": 0,
+    "hint": "Value-chain activities contribute to the final offering."
+  },
+  {
+    "id": 115,
+    "question": "Outsourcing means:",
+    "options": [
+      "Obtaining selected activities from an external provider",
+      "Hiring no one",
+      "Selling the entire business",
+      "Avoiding suppliers"
+    ],
+    "answer": 0,
+    "hint": "Outsourcing uses external providers for selected functions."
+  },
+  {
+    "id": 116,
+    "question": "A standard operating procedure is:",
+    "options": [
+      "A documented method for carrying out a task",
+      "A customer complaint",
+      "A loan agreement only",
+      "A business slogan"
+    ],
+    "answer": 0,
+    "hint": "SOPs support consistency and operational control."
+  },
+  {
+    "id": 117,
+    "question": "Quality control aims to:",
+    "options": [
+      "Check whether outputs meet specified standards",
+      "Increase defects",
+      "Avoid customer feedback",
+      "Remove all employees"
+    ],
+    "answer": 0,
+    "hint": "Quality control checks outputs against requirements."
+  },
+  {
+    "id": 118,
+    "question": "Customer service can support retention through:",
+    "options": [
+      "Responsive and reliable assistance",
+      "Ignoring complaints",
+      "Misleading customers",
+      "Delaying every response"
+    ],
+    "answer": 0,
+    "hint": "Good service can strengthen customer relationships."
+  },
+  {
+    "id": 119,
+    "question": "A business's brand refers to:",
+    "options": [
+      "The identity and associations connected to the offering",
+      "Only the tax certificate",
+      "Only the inventory count",
+      "Only the office rent"
+    ],
+    "answer": 0,
+    "hint": "A brand includes perceptions and identity associated with a venture."
+  },
+  {
+    "id": 120,
+    "question": "A niche market is:",
+    "options": [
+      "A narrowly defined customer segment",
+      "The entire global market automatically",
+      "Only a supplier group",
+      "Only government workers"
+    ],
+    "answer": 0,
+    "hint": "A niche market focuses on a specific segment or need."
+  },
+  {
+    "id": 121,
+    "question": "Market segmentation means:",
+    "options": [
+      "Dividing a broad market into meaningful groups",
+      "Closing a market",
+      "Avoiding customers",
+      "Selling without research"
+    ],
+    "answer": 0,
+    "hint": "Segmentation organizes customers into groups with shared characteristics."
+  },
+  {
+    "id": 122,
+    "question": "A business's competitive positioning describes:",
+    "options": [
+      "How it is perceived relative to alternatives",
+      "Only its registration number",
+      "Only its office size",
+      "Only its debts"
+    ],
+    "answer": 0,
+    "hint": "Positioning concerns how the venture is differentiated in the market."
+  },
+  {
+    "id": 123,
+    "question": "A referral is:",
+    "options": [
+      "A recommendation from an existing contact or customer",
+      "A business tax",
+      "A production machine",
+      "A loan repayment"
+    ],
+    "answer": 0,
+    "hint": "Referrals can bring new customers through recommendations."
+  },
+  {
+    "id": 124,
+    "question": "An entrepreneur should validate pricing by:",
+    "options": [
+      "Testing willingness to pay and considering costs",
+      "Choosing a price randomly",
+      "Ignoring competitors",
+      "Avoiding customers"
+    ],
+    "answer": 0,
+    "hint": "Pricing should be informed by value, demand, costs and competition."
+  },
+  {
+    "id": 125,
+    "question": "A business's break-even sales value is:",
+    "options": [
+      "The sales revenue needed to cover total costs",
+      "The highest possible profit",
+      "The amount of personal savings",
+      "The number of employees"
+    ],
+    "answer": 0,
+    "hint": "Break-even sales cover fixed and variable costs."
+  },
+  {
+    "id": 126,
+    "question": "A business contingency reserve is:",
+    "options": [
+      "Funds or resources set aside for unexpected needs",
+      "A guaranteed profit",
+      "A customer list",
+      "A marketing slogan"
+    ],
+    "answer": 0,
+    "hint": "Reserves can improve resilience during disruptions."
+  },
+  {
+    "id": 127,
+    "question": "A business mentor may provide:",
+    "options": [
+      "Guidance and experience-based support",
+      "Guaranteed funding",
+      "Automatic customers",
+      "Legal immunity"
+    ],
+    "answer": 0,
+    "hint": "Mentors can provide guidance, feedback and experience."
+  },
+  {
+    "id": 128,
+    "question": "Entrepreneurial learning often occurs through:",
+    "options": [
+      "Experimentation, feedback and reflection",
+      "Ignoring results",
+      "Avoiding customers",
+      "Repeating mistakes without review"
+    ],
+    "answer": 0,
+    "hint": "Learning supports adaptation and improvement."
+  },
+  {
+    "id": 129,
+    "question": "A startup ecosystem may include:",
+    "options": [
+      "Investors, mentors, institutions, customers and support organizations",
+      "Only one founder",
+      "Only competitors",
+      "Only tax officers"
+    ],
+    "answer": 0,
+    "hint": "An ecosystem contains actors and resources supporting entrepreneurial activity."
+  },
+  {
+    "id": 130,
+    "question": "The Nigerian business environment can be affected by:",
+    "options": [
+      "Infrastructure, policy, prices and purchasing power",
+      "Only product color",
+      "Only employee uniforms",
+      "Only business slogans"
+    ],
+    "answer": 0,
+    "hint": "External conditions influence venture decisions and performance."
+  },
+  {
+    "id": 131,
+    "question": "A responsible entrepreneur should treat regulations as:",
+    "options": [
+      "Requirements to understand and comply with",
+      "Optional in every industry",
+      "A replacement for planning",
+      "Only marketing tools"
+    ],
+    "answer": 0,
+    "hint": "Compliance obligations vary by venture and must be addressed."
+  },
+  {
+    "id": 132,
+    "question": "The main purpose of a business pitch is to:",
+    "options": [
+      "Communicate the venture's problem, solution and potential",
+      "Hide all risks",
+      "Avoid explaining the model",
+      "Replace all records"
+    ],
+    "answer": 0,
+    "hint": "A pitch communicates the core business proposition to an audience."
+  },
+  {
+    "id": 133,
+    "question": "A business pitch should ideally be:",
+    "options": [
+      "Clear, evidence-based and audience-appropriate",
+      "Entirely unsupported",
+      "Only emotional",
+      "Unrelated to customers"
+    ],
+    "answer": 0,
+    "hint": "Effective pitches explain the problem, solution, market and model clearly."
+  },
+  {
+    "id": 134,
+    "question": "An assumption in a business model is:",
+    "options": [
+      "Something believed to be true but requiring testing",
+      "A confirmed legal fact always",
+      "A completed sale",
+      "A fixed asset"
+    ],
+    "answer": 0,
+    "hint": "Assumptions should be identified and tested."
+  },
+  {
+    "id": 135,
+    "question": "The purpose of a pilot launch is to:",
+    "options": [
+      "Test the offering on a limited scale",
+      "Guarantee national dominance",
+      "Avoid feedback",
+      "Eliminate all costs"
+    ],
+    "answer": 0,
+    "hint": "Pilots provide learning before broader implementation."
+  },
+  {
+    "id": 136,
+    "question": "A business dashboard is useful for:",
+    "options": [
+      "Displaying important performance information",
+      "Replacing all employees",
+      "Avoiding accounting",
+      "Guaranteeing sales"
+    ],
+    "answer": 0,
+    "hint": "Dashboards summarize selected indicators for monitoring."
+  },
+  {
+    "id": 137,
+    "question": "A venture's mission should guide:",
+    "options": [
+      "Strategic decisions and activities",
+      "Only the logo design",
+      "Only staff birthdays",
+      "Only supplier discounts"
+    ],
+    "answer": 0,
+    "hint": "Mission provides direction for the venture."
+  },
+  {
+    "id": 138,
+    "question": "A long-term business relationship depends partly on:",
+    "options": [
+      "Trust, reliability and communication",
+      "Only high prices",
+      "Only secrecy",
+      "Ignoring commitments"
+    ],
+    "answer": 0,
+    "hint": "Trust and reliability support stakeholder relationships."
+  },
+  {
+    "id": 139,
+    "question": "An entrepreneur's network can provide:",
+    "options": [
+      "Information, opportunities and support",
+      "Guaranteed success",
+      "Automatic legal exemption",
+      "Unlimited free finance"
+    ],
+    "answer": 0,
+    "hint": "Networks can improve access to resources and information."
+  },
+  {
+    "id": 140,
+    "question": "The most appropriate response to weak customer demand is to:",
+    "options": [
+      "Investigate causes and adapt based on evidence",
+      "Ignore the issue",
+      "Increase every cost immediately",
+      "Blame customers automatically"
+    ],
+    "answer": 0,
+    "hint": "Evidence-based diagnosis supports appropriate adaptation."
+  },
+  {
+    "id": 141,
+    "question": "A business model should be reviewed when:",
+    "options": [
+      "Major assumptions or market conditions change",
+      "Nothing ever changes",
+      "Only after closure",
+      "Only when the logo changes"
+    ],
+    "answer": 0,
+    "hint": "Review is useful when assumptions, customers or conditions change."
+  },
+  {
+    "id": 142,
+    "question": "The central purpose of venture creation is to:",
+    "options": [
+      "Create a viable enterprise that delivers value",
+      "Avoid all responsibility",
+      "Guarantee wealth immediately",
+      "Eliminate all uncertainty"
+    ],
+    "answer": 0,
+    "hint": "Venture creation aims to establish and develop a value-creating enterprise."
+  }
+]

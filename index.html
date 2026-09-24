@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GST 321 Venture Creation CBT Practice App for University of Uyo students.">
+  <title>GST 321 | Venture Creation CBT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root { --brand:#14213d; --accent:#fca311; }
+    body { background:#f4f6f9; color:#172033; }
+    .navbar, .hero { background:linear-gradient(135deg,#14213d,#243b64); }
+    .hero { color:#fff; border-radius:0 0 2rem 2rem; }
+    .brand-accent { color:var(--accent); }
+    .card { border:0; border-radius:1rem; box-shadow:0 8px 25px rgba(20,33,61,.07); }
+    .option { cursor:pointer; transition:.2s; border:1px solid #dee2e6; }
+    .option:hover { transform:translateY(-2px); border-color:var(--accent); }
+    .option.selected { border:2px solid var(--brand); background:#eef2f8; }
+    .option.correct { border:2px solid #198754; background:#e9f7ef; }
+    .option.wrong { border:2px solid #dc3545; background:#fff0f1; }
+    .question-nav button { width:42px; height:42px; margin:3px; }
+    .question-nav button.answered { background:#198754; color:#fff; }
+    .question-nav button.flagged { border:2px solid #dc3545; }
+    footer { background:#14213d; color:#dbe3f0; }
+    .small-muted { color:#6c757d; font-size:.9rem; }
+    .hidden { display:none !important; }
+    .score-ring { font-size:2.3rem; font-weight:800; }
+    @media (max-width:576px) { .hero h1 { font-size:1.7rem; } .question-nav button { width:36px; height:36px; } }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><i class="bi bi-mortarboard-fill"></i> GST 321 <span class="brand-accent">CBT</span></a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Account</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" id="loginNav">Username Login</button></li>
+            <li><button class="dropdown-item" id="logoutNav">Log out</button></li>
+          </ul>
+        </li>
+      </ul>
+      <span class="navbar-text ms-lg-3" id="userBadge">Guest</span>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container py-3">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <span class="badge text-bg-warning mb-3">UNIVERSITY OF UYO • GST 321</span>
+        <h1 class="fw-bold">Venture Creation CBT Practice</h1>
+        <p class="lead mb-0">Revise entrepreneurship, opportunity recognition, feasibility studies, business planning, finance, marketing, innovation and venture management.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <i class="bi bi-rocket-takeoff display-1 brand-accent"></i>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+  <section id="loginPanel" class="card p-4 mb-4">
+    <div class="row align-items-center g-3">
+      <div class="col-md-8">
+        <h4 class="mb-1">Start with your username</h4>
+        <p class="small-muted mb-0">Your username and history are stored locally in this browser. No server or password is required.</p>
+      </div>
+      <div class="col-md-4 text-md-end"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="bi bi-person-check"></i> Login / Sign up</button></div>
+    </div>
+  </section>
+
+  <section id="dashboard">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="card p-4 h-100">
+          <h3 class="fw-bold">Exam setup</h3>
+          <p class="small-muted">Choose the number of questions and duration. Answer options are randomized for every session.</p>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label fw-semibold">Number of questions</label>
+              <select id="questionCount" class="form-select">
+                <option value="20">20 questions</option><option value="40">40 questions</option>
+                <option value="60">60 questions</option><option value="100">100 questions</option>
+                <option value="all">All available questions</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-semibold">Time limit</label>
+              <select id="timeLimit" class="form-select">
+                <option value="30">30 minutes</option><option value="60" selected>60 minutes</option>
+                <option value="90">90 minutes</option><option value="0">No timer</option>
+              </select>
+            </div>
+          </div>
+          <button id="startBtn" class="btn btn-warning btn-lg mt-4"><i class="bi bi-play-circle"></i> Start CBT</button>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-4 h-100">
+          <h5 class="fw-bold">Your performance</h5>
+          <div class="display-5 fw-bold" id="attemptCount">0</div><p class="small-muted">Completed attempts</p>
+          <div class="display-6 fw-bold" id="averageScore">0%</div><p class="small-muted">Average score</p>
+          <button class="btn btn-outline-primary" id="clearHistory">Clear local history</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="examPanel" class="hidden mt-4">
+    <div class="card p-3 mb-3">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div><span class="badge text-bg-primary" id="examUser">Guest</span> <span class="small-muted" id="examProgress">Question 1</span></div>
+        <div class="fw-bold text-danger" id="timer">60:00</div>
+      </div>
+      <div class="progress mt-3" style="height:8px"><div id="progressBar" class="progress-bar" style="width:0%"></div></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="card p-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="badge text-bg-light" id="questionNumber">Question 1</span>
+            <button id="flagBtn" class="btn btn-sm btn-outline-danger"><i class="bi bi-flag"></i> Flag</button>
+          </div>
+          <h4 id="questionText" class="fw-bold"></h4>
+          <div id="options" class="d-grid gap-2 mt-4"></div>
+          <div id="feedback" class="alert mt-3 hidden"></div>
+          <div class="d-flex justify-content-between mt-4">
+            <button id="prevBtn" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Previous</button>
+            <button id="nextBtn" class="btn btn-primary">Next <i class="bi bi-arrow-right"></i></button>
+          </div>
+          <button id="submitBtn" class="btn btn-success w-100 mt-3">Submit examination</button>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card p-3">
+          <h5 class="fw-bold">Question navigator</h5>
+          <p class="small-muted">Green = answered. Red outline = flagged.</p>
+          <div id="questionNav" class="question-nav"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resultPanel" class="hidden mt-4">
+    <div class="card p-5 text-center">
+      <i class="bi bi-award display-1 text-warning"></i>
+      <h2 class="fw-bold mt-3">Examination result</h2>
+      <div class="score-ring" id="resultScore">0%</div>
+      <p id="resultText" class="lead"></p>
+      <div class="d-flex justify-content-center gap-2 flex-wrap">
+        <button id="reviewBtn" class="btn btn-primary">Review answers</button>
+        <button id="newExamBtn" class="btn btn-outline-secondary">New examination</button>
+      </div>
+      <div id="reviewList" class="text-start mt-4"></div>
+    </div>
+  </section>
+
+  <section id="history" class="card p-4 mt-4">
+    <h4 class="fw-bold">Attempt history</h4>
+    <div id="historyList" class="table-responsive"></div>
+  </section>
+</main>
+
+<footer class="py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-1 fw-semibold">Built by <span class="brand-accent">Miracle Silas</span></p>
+    <p class="mb-1">University of Uyo • For educational purposes only</p>
+    <small>This CBT app is a revision aid and is not an official examination portal.</small>
+  </div>
+</footer>
+
+<div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">Username login / sign up</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body">
+        <label class="form-label">Enter username</label>
+        <input id="usernameInput" class="form-control" placeholder="e.g. MiracleStudent" maxlength="30">
+        <div class="form-text">Use at least 3 characters. This demo stores the username locally.</div>
+        <div id="loginError" class="text-danger small mt-2"></div>
+      </div>
+      <div class="modal-footer"><button class="btn btn-primary" id="saveUsername">Continue</button></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+let bank=[], session=[], current=0, answers={}, flags=new Set(), remaining=0, interval=null, reviewMode=false;
+const $ = id => document.getElementById(id);
+const shuffle = arr => { const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const userKey='gst321_user', historyKey='gst321_history';
+function user(){return localStorage.getItem(userKey)||'Guest';}
+function updateUser(){ $('userBadge').textContent=user(); $('examUser').textContent=user(); $('loginPanel').classList.toggle('hidden',user()!=='Guest');}
+function getHistory(){try{return JSON.parse(localStorage.getItem(historyKey)||'[]')}catch(e){return []}}
+function renderHistory(){
+ const h=getHistory(); $('attemptCount').textContent=h.length;
+ $('averageScore').textContent=h.length?Math.round(h.reduce((s,x)=>s+x.percent,0)/h.length)+'%':'0%';
+ $('historyList').innerHTML=h.length?`<table class="table align-middle"><thead><tr><th>Date</th><th>Username</th><th>Score</th><th>Questions</th></tr></thead><tbody>${h.slice().reverse().map(x=>`<tr><td>${x.date}</td><td>${escapeHtml(x.user)}</td><td>${x.percent}%</td><td>${x.total}</td></tr>`).join('')}</tbody></table>`:'<p class="small-muted">No attempts recorded yet.</p>';
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+async function loadBank(){const r=await fetch('questions.json');bank=await r.json();}
+function startExam(){
+ if(user()==='Guest'){new bootstrap.Modal($('loginModal')).show();return;}
+ let count=$('questionCount').value==='all'?bank.length:Number($('questionCount').value);
+ session=shuffle(bank).slice(0,count).map(q=>{
+   const correct=q.options[q.answer];
+   const opts=shuffle(q.options);
+   return {...q,options:opts,answer:opts.indexOf(correct)};
+ });
+ current=0;answers={};flags=new Set();reviewMode=false;
+ remaining=Number($('timeLimit').value)*60;
+ $('dashboard').classList.add('hidden');$('examPanel').classList.remove('hidden');$('resultPanel').classList.add('hidden');
+ if(interval)clearInterval(interval);
+ if(remaining>0){renderTimer();interval=setInterval(()=>{remaining--;renderTimer();if(remaining<=0){clearInterval(interval);submitExam(true)}},1000)}else $('timer').textContent='No timer';
+ renderQuestion();
+}
+function renderTimer(){const m=Math.floor(remaining/60).toString().padStart(2,'0'),s=(remaining%60).toString().padStart(2,'0');$('timer').textContent=m+':'+s;}
+function renderQuestion(){
+ const q=session[current], selected=answers[current];
+ $('examProgress').textContent=`Question ${current+1} of ${session.length}`;
+ $('questionNumber').textContent=`Question ${current+1}`;
+ $('questionText').textContent=q.question;
+ $('progressBar').style.width=((current+1)/session.length*100)+'%';
+ $('flagBtn').classList.toggle('active',flags.has(current));
+ $('flagBtn').innerHTML=flags.has(current)?'<i class="bi bi-flag-fill"></i> Unflag':'<i class="bi bi-flag"></i> Flag';
+ $('options').innerHTML=q.options.map((o,i)=>`<button class="option text-start rounded-3 p-3 ${selected===i?'selected':''}" data-i="${i}"><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(o)}</button>`).join('');
+ $('options').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(!reviewMode){answers[current]=Number(b.dataset.i);renderQuestion();}});
+ $('prevBtn').disabled=current===0;$('nextBtn').disabled=current===session.length-1;
+ $('feedback').classList.add('hidden');renderNav();
+}
+function renderNav(){
+ $('questionNav').innerHTML=session.map((q,i)=>`<button class="btn btn-sm btn-outline-secondary ${answers[i]!==undefined?'answered':''} ${flags.has(i)?'flagged':''}" data-i="${i}">${i+1}</button>`).join('');
+ $('questionNav').querySelectorAll('button').forEach(b=>b.onclick=()=>{current=Number(b.dataset.i);renderQuestion();});
+}
+function submitExam(auto=false){
+ if(interval)clearInterval(interval);
+ let correct=0;session.forEach((q,i)=>{if(answers[i]===q.answer)correct++;});
+ const percent=Math.round(correct/session.length*100);
+ const h=getHistory();h.push({date:new Date().toLocaleString(),user:user(),percent,total:session.length,correct});
+ localStorage.setItem(historyKey,JSON.stringify(h.slice(-30)));
+ $('examPanel').classList.add('hidden');$('resultPanel').classList.remove('hidden');
+ $('resultScore').textContent=percent+'%';$('resultText').textContent=`${correct} correct out of ${session.length}. ${auto?'The timer ended. ':''}${percent>=70?'Keep building your mastery.':'Review the explanations and try again.'}`;
+ renderHistory();
+}
+function review(){
+ $('reviewList').innerHTML=session.map((q,i)=>{const ok=answers[i]===q.answer;return `<div class="border rounded-3 p-3 mb-2"><strong>${i+1}. ${escapeHtml(q.question)}</strong><p class="mb-1 mt-2 ${ok?'text-success':'text-danger'}">Your answer: ${answers[i]===undefined?'Not answered':escapeHtml(q.options[answers[i]])}</p><p class="mb-1 text-success">Correct answer: ${escapeHtml(q.options[q.answer])}</p><small class="text-muted">${escapeHtml(q.hint)}</small></div>`}).join('');
+}
+$('saveUsername').onclick=()=>{const n=$('usernameInput').value.trim();if(n.length<3){$('loginError').textContent='Username must contain at least 3 characters.';return;}localStorage.setItem(userKey,n);updateUser();bootstrap.Modal.getInstance($('loginModal')).hide();};
+$('loginNav').onclick=()=>new bootstrap.Modal($('loginModal')).show();
+$('logoutNav').onclick=()=>{localStorage.removeItem(userKey);updateUser();};
+$('startBtn').onclick=startExam;
+$('prevBtn').onclick=()=>{current--;renderQuestion();};
+$('nextBtn').onclick=()=>{current++;renderQuestion();};
+$('flagBtn').onclick=()=>{flags.has(current)?flags.delete(current):flags.add(current);renderQuestion();};
+$('submitBtn').onclick=()=>{if(confirm('Submit this examination now?'))submitExam(false);};
+$('reviewBtn').onclick=review;
+$('newExamBtn').onclick=()=>{$('resultPanel').classList.add('hidden');$('dashboard').classList.remove('hidden');};
+$('clearHistory').onclick=()=>{if(confirm('Clear local attempt history?')){localStorage.removeItem(historyKey);renderHistory();}};
+updateUser();renderHistory();loadBank().catch(()=>alert('Unable to load questions.json. Ensure both files are uploaded to the same GitHub Pages folder.'));
+</script>
+</body>
+</html>
